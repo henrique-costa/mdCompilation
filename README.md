@@ -15,6 +15,10 @@ Before shipping your CLAUDE.md:
 If not, cut it.
 
 ---
+## Commands
+claude --dangerously-skip-permissions
+claude plugin add anthropic/frontend-design
+claude plugin add nextlevelbuilder/ui-ux-pro-max-skill
 
 ## PRO TIPS
 
