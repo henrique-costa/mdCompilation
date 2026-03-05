@@ -16,7 +16,7 @@ If not, cut it.
 ## Commands
 ### Skip Permissions Prompt
 
-Starts Claude Code without the permission confirmation on every tool use. Useful for uninterrupted workflows but use with caution — Claude will execute commands without asking first.
+Starts Claude Code without the permission confirmation on every tool use. Useful for uninterrupted workflows but use with caution — Claude will execute commands without asking first. Run this from your regular terminal.
 
 ```bash
 claude --dangerously-skip-permissions
@@ -26,21 +26,32 @@ claude --dangerously-skip-permissions
 
 ### Install Frontend Design Skill (Anthropic Official)
 
-Anthropic's own skill that forces Claude to pick a bold aesthetic direction before writing any code. Prevents the generic "AI slop" look (Inter font, purple gradients, rounded cards). Install this one first.
+Anthropic's own skill that forces Claude to pick a bold aesthetic direction before writing any code. Prevents the generic "AI slop" look (Inter font, purple gradients, rounded cards). The official marketplace is pre-loaded — just open the plugin menu inside a Claude Code session.
 
-```bash
-claude plugin add anthropic/frontend-design
 ```
+/plugin
+```
+
+Then go to the **Discover** tab and install `frontend-design`.
 
 ---
 
 ### Install UI/UX Pro Max Skill
 
-Adds a full design intelligence engine with 50+ styles, 95 color palettes, 56 font pairings, and stack-specific guidelines (React, Next.js, Vue, Tailwind, etc.). Claude automatically searches its local design databases before generating UI code.
+Adds a full design intelligence engine with 50+ styles, 95 color palettes, 56 font pairings, and stack-specific guidelines (React, Next.js, Vue, Tailwind, etc.). Claude automatically searches its local design databases before generating UI code. Run these inside a Claude Code session.
 
-```bash
-claude plugin add nextlevelbuilder/ui-ux-pro-max-skill
+**Add the marketplace:**
+
 ```
+/plugin marketplace add nextlevelbuilder/ui-ux-pro-max-skill
+```
+
+**Install the plugin:**
+
+```
+/plugin install ui-ux-pro-max@ui-ux-pro-max-skill
+```
+
 
 ---
 
