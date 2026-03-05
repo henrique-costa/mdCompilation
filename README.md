@@ -16,9 +16,35 @@ If not, cut it.
 
 ---
 ## Commands
+### Skip Permissions Prompt
+
+Starts Claude Code without the permission confirmation on every tool use. Useful for uninterrupted workflows but use with caution — Claude will execute commands without asking first.
+
+```bash
 claude --dangerously-skip-permissions
+```
+
+---
+
+### Install Frontend Design Skill (Anthropic Official)
+
+Anthropic's own skill that forces Claude to pick a bold aesthetic direction before writing any code. Prevents the generic "AI slop" look (Inter font, purple gradients, rounded cards). Install this one first.
+
+```bash
 claude plugin add anthropic/frontend-design
+```
+
+---
+
+### Install UI/UX Pro Max Skill
+
+Adds a full design intelligence engine with 50+ styles, 95 color palettes, 56 font pairings, and stack-specific guidelines (React, Next.js, Vue, Tailwind, etc.). Claude automatically searches its local design databases before generating UI code.
+
+```bash
 claude plugin add nextlevelbuilder/ui-ux-pro-max-skill
+```
+
+---
 
 ## PRO TIPS
 
