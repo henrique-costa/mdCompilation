@@ -1,6 +1,4 @@
-# mdCompilation
-
-# COMO FAZER UM BOM CLAUDE.md
+# CLAUDE.md
 
 ## QUICK CHECKLIST
 
