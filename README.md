@@ -8,7 +8,6 @@ Before shipping your CLAUDE.md:
 - Does every line tell Claude something it cannot guess?
 - Am I under 30 instructions? (20 is ideal)
 - Did I include specific examples instead of vague rules?
-- Would a freelancer understand my project from this?
 
 If not, cut it.
 
