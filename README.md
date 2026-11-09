@@ -9,7 +9,6 @@ Before shipping your CLAUDE.md:
 - Am I under 30 instructions? (20 is ideal)
 - Did I include specific examples instead of vague rules?
 
-If not, cut it.
 
 ---
 ## Commands
