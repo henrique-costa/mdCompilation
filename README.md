@@ -2,7 +2,7 @@
 
 ## QUICK CHECKLIST
 
-Before shipping your CLAUDE.md:
+Before shipping your CLAUDE.md
 
 - Can I read this in 60 seconds?
 - Does every line tell Claude something it cannot guess?
